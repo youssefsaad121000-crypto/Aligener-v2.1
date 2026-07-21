@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "aligner",
+  "version": "${version}",
+  "name": "Aligner",
+  "description": "Vertex alignment fix with world text support.",
+  "authors": [
+    "artdeell",
+    "NOT_Real Chatgpt"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "git.artdeell.Aligner"
+    ]
+  },
+  "mixins": [
+    "aligner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
