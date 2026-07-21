@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "package": "git.artdeell.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AlignerMixin",
+    "WorldTextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
